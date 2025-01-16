@@ -90,10 +90,13 @@ top: 190%;
   @media (max-width: 768px) {
     .what-we-do .gold-line-img {
       width: 80px; 
-      top: 160%;
+      top: 165%;
       right: 20px;
     }
-   
+    .rect-line {
+        width: 200px !important;
+        text-align: left;
+    }
   }
   
   
@@ -105,3 +108,14 @@ top: 190%;
         align-self: center;
     }
   }
+
+  .products h2 {
+    font-weight: bold;
+    color: #212121;
+  }
+  
+  .reach h2 {
+    font-weight: bold;
+    color: #212121;
+  }
+  
