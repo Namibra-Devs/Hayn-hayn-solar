@@ -37,10 +37,10 @@
   
   .rect-line {
     width: 200px; 
-    height: 8px; 
+    height: 9px; 
     border-radius: 10px;
     background: linear-gradient(to right, #212121 55%, #FDA802 45%);
-    margin: 10px auto; 
+    margin: 5px auto; 
   }
   
   .intro-text {
@@ -75,14 +75,32 @@
     color: #555;
   }
   
-  .what-we-do img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+/* Positioning the image at the bottom right */
+.what-we-do .gold-line-img {
+    position: absolute;
+top: 190%;
+    right: 45px;
+    width: 120px;  /* Adjust size as needed */
+    height: auto;  /* Keeps aspect ratio */
   }
   
-  .what-we-do img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .what-we-do .gold-line-img {
+      width: 80px; 
+      top: 170%;
+      right: 20px;
+    }
+   
   }
   
   
-  
+  /* what we do responsiveness---- */
+  @media (max-width: 998px){
+    .what-we-do h2{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+  }
