@@ -28,6 +28,7 @@
     .header-section{
         height: 30%;
     }
+    
   }
   
   /* Intro Section */
@@ -81,15 +82,15 @@
     position: absolute;
 top: 190%;
     right: 45px;
-    width: 120px;  /* Adjust size as needed */
-    height: auto;  /* Keeps aspect ratio */
+    width: 120px;  
+    height: auto; 
   }
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .what-we-do .gold-line-img {
       width: 80px; 
-      top: 170%;
+      top: 160%;
       right: 20px;
     }
    
