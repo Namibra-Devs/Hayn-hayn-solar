@@ -22,6 +22,13 @@
     height: 100%;
     object-fit: cover;
   }
+
+  /* Header Responsiveness--- */
+  @media (max-width: 998px){
+    .header-section{
+        height: 30%;
+    }
+  }
   
   /* Intro Section */
   .intro-section {
@@ -56,4 +63,6 @@
     background-color: #FDA802;
     border-color: #212121;
   }
+
+  
   
