@@ -80,7 +80,7 @@
 /* Positioning the image at the bottom right */
 .what-we-do .gold-line-img {
     position: absolute;
-top: 190%;
+top: 95%;
     right: 45px;
     width: 120px;  
     height: auto; 
@@ -90,7 +90,7 @@ top: 190%;
   @media (max-width: 768px) {
     .what-we-do .gold-line-img {
       width: 80px; 
-      top: 165%;
+      top: 95%;
       right: 20px;
     }
     .rect-line {
