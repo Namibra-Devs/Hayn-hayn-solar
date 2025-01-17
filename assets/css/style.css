@@ -118,4 +118,11 @@ top: 190%;
     font-weight: bold;
     color: #212121;
   }
-  
+  /* Footer section------- */
+  footer h2{
+    font-weight: bold;
+  }
+  footer ul li i {
+    color: #f8f9fa; 
+    font-size: 22px;
+  }
